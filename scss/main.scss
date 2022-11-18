@@ -1,11 +1,17 @@
 /*HEADER*/
 .background-header{
     background-color: rgba(209, 226, 228, 0.938);
-    background-image: linear-gradient(rgba(209, 226, 228,0.938), rgba(100,180,120,0.897));}
+    background-image: linear-gradient(rgba(209, 226, 228,0.938), rgba(100,180,120,0.897));
+
+    }
     .header__nav{ 
           background-color: rgba(209, 226, 228, 0.938);}
     .header__list{display:flex;
     flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    
+    border: 1px solid;
     }
     .header__item{
         display:inline-block;
